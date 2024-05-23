@@ -1,20 +1,27 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomePage from "@/pages/HomePage.vue";
-import ProductContent from "@/pages/ProductContent.vue";
-import LoginPage from "@/pages/LoginPage.vue";
+import {defineAsyncComponent} from "vue";
 
 const routes = [
     {
         path: '/',
-        component: HomePage
+        component:() => import ('@/pages/HomePage.vue'),
+        meta: {
+            layout: defineAsyncComponent(()  => import('@/layouts/DefaultLayout.vue'))
+        }
     },
     {
         path: '/product/content',
-        component: ProductContent
+        component:() => import ('@/pages/ProductContent.vue'),
+        meta: {
+            layout: defineAsyncComponent(()  => import('@/layouts/DefaultLayout.vue'))
+        }
     },
     {
         path: '/login',
-        component: LoginPage
+        component:() => import('@/pages/LoginPage.vue'),
+        meta: {
+            layout: defineAsyncComponent(()  => import('@/layouts/BlankLayout.vue'))
+        }
     }
 ];
 

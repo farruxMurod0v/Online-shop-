@@ -40,6 +40,42 @@
                      class="bg-amber-600  text-black py-1 rounded float-right mr-3 mt-6 hover:bg-green-600">Shop now
         </router-link>
     </div>
+
+    <div class="col-span-3 bg-orange-600 border rounded overflow-hidden shadow-lg cursor-pointer">
+        <img src="../assets/img/ipad.webp" alt="#">
+        <h5 class="font-bold text-2xl px-2">1800 $</h5>
+        <p class="px-2 pt-2">TAB S9 Ultra 256 GB Dark Gray</p>
+        <router-link to="product/content"
+                     class="bg-amber-600  text-black py-1 rounded float-right mr-3 mt-6 hover:bg-green-600">Shop now
+        </router-link>
+    </div>
+
+    <div class="col-span-3 bg-orange-600 border rounded overflow-hidden shadow-lg cursor-pointer">
+        <img src="../assets/img/ipad.webp" alt="#">
+        <h5 class="font-bold text-2xl px-2">1800 $</h5>
+        <p class="px-2 pt-2">TAB S9 Ultra 256 GB Dark Gray</p>
+        <router-link to="product/content"
+                     class="bg-amber-600  text-black py-1 rounded float-right mr-3 mt-6 hover:bg-green-600">Shop now
+        </router-link>
+    </div>
+
+    <div class="col-span-3 bg-orange-600 border rounded overflow-hidden shadow-lg cursor-pointer">
+        <img src="../assets/img/ipad.webp" alt="#">
+        <h5 class="font-bold text-2xl px-2">1800 $</h5>
+        <p class="px-2 pt-2">TAB S9 Ultra 256 GB Dark Gray</p>
+        <router-link to="product/content"
+                     class="bg-amber-600  text-black py-1 rounded float-right mr-3 mt-6 hover:bg-green-600">Shop now
+        </router-link>
+    </div>
+
+    <div class="col-span-3 bg-orange-600 border rounded overflow-hidden shadow-lg cursor-pointer">
+        <img src="../assets/img/ipad.webp" alt="#">
+        <h5 class="font-bold text-2xl px-2">1800 $</h5>
+        <p class="px-2 pt-2">TAB S9 Ultra 256 GB Dark Gray</p>
+        <router-link to="product/content"
+                     class="bg-amber-600  text-black py-1 rounded float-right mr-3 mt-6 hover:bg-green-600">Shop now
+        </router-link>
+    </div>
 </template>
 
 
